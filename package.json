@@ -1,6 +1,6 @@
 {
   "name": "mixin.ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A typescript library that enables a class to extend multiple classes",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -24,7 +24,11 @@
   },
   "keywords": [
     "typescript",
-    "typings"
+    "typings",
+    "extend",
+    "multiple",
+    "classes",
+	  "inherit"
   ],
   "devDependencies": {
     "@types/chai": "^4.2.0",

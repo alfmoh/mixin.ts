@@ -14,7 +14,7 @@ let className = mixin([classToInheritFrom1, classToInheritFrom2,...])
 ```ts
 // function
 function Car () {}
-Car.prototype.drive = (name: string) {
+Car.prototype.drive = (name: string) => {
     console.log(`This ${name} can drive very fast`);
 }
 Car.prototype.model = "Toyota";
